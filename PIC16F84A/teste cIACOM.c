@@ -22,3 +22,6 @@ write(portB,5); // escreve na porta B o valor 0x5
 write(portB,4); // escreve na porta B o valor 0x4
 }
 }
+
+
+

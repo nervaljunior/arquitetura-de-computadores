@@ -1,7 +1,10 @@
-; Definições de registradores
+#include <xc.h>
+
 #define portaA    5
 #define RA1       1
 #define portaB    6
+
+__CONFIG(0x3FF1); // Configuração do PIC16F84A
 
 ; Variáveis
 a     equ 0x20
@@ -60,6 +63,7 @@ main:
     call func        ; Chama a função func
     movwf f          ; Armazena o resultado em "f"
     goto check_f
+
 d_true:
     movf c, W        ; Carrega o valor de "c" em "f"
     call func        ; Chama a função func
@@ -79,5 +83,3 @@ write_portB:
 
 end:
     goto end
-
-
