@@ -14,6 +14,23 @@
 ---
 linguagem utilizada assembly 
 microcontrolador PIC16F84A
+### diagrama total:
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/9004cc3d-79c4-42ef-8f9a-e42c53af6ce8)
+
+### expressão do sinal de alerta
+#### geral:
+![Imagem do WhatsApp de 2023-05-28 à(s) 20 50 27](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/0b57d555-74a1-4262-a63c-5ba28d9130c4)
+#### simplificada:
+![Imagem do WhatsApp de 2023-05-28 à(s) 20 50 27](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/fa04b4c5-0cce-43b0-98df-dd88c5276b8f)
+#### mapa karnaugh:
+![Imagem do WhatsApp de 2023-05-28 à(s) 20 50 27](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/e665969b-f5d1-4142-9c1b-d8696b455f16)
+#### sinais
+![Imagem do WhatsApp de 2023-05-28 à(s) 20 50 28](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/f7dda186-5e16-49ca-9046-d71d5a70ef06)
+
+
+
+
+
 
 
 ### Happy Coding!.
