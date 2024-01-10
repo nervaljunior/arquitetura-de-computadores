@@ -1,0 +1,114 @@
+
+<!-- Autor: Seu Nome -->
+<!-- Data: 29 de maio de 2023 -->
+<!-- Descrição: Este é o meu código HTML -->
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>  
+    <title>SGFSimulator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css" />
+</head>
+  
+<body>
+
+    <header class="page-header">
+            <h1 align= "center">Shortest Job First(SJF)</h1>
+    </header>
+
+    
+    <div class="form-group-2">
+            <label>
+                 to preemptive SJF  :
+            </label>
+
+            <!-- Rounded switch -->
+            <label class="switch">
+                <input type="checkbox" id="toggle">
+                <span class="slider round"></span>
+            </label>
+    </div>
+
+
+    <div align= "center" class="container-1">
+            <form class="input-form">
+                <div class="form-group">
+                    <label>Process ID: </label>
+                    <input type="number" id="PID" name="PID" value="">
+                </div>
+                <div class="form-group">
+                    <label>Burst Time: </label>
+                    <input type="number" id="burstTime" value="">
+                </div>
+                <div class="form-group">
+                    <label>Arrival Time: </label>
+                    <input type="number" id="arrivalTime" value="">
+                </div>
+                <div class="form-group">
+                    <button class="button" type="button" onclick="createTable()">Enter values</button>
+                </div>
+
+                <div class="form-group">
+                    <button class="button" type="button" onclick="printGanttChart()">Show Gantt Chart</button>
+                </div>  
+        </form>
+    </div>
+    </div>  
+
+
+    <div class="container">
+        <table id="inputTable">
+            <tr>
+                <th>PID</th>
+                <th>Burst Time</th>
+                <th>Arrival Time</th>
+            </tr>
+        </table>
+    </div>
+
+       
+    
+
+    <section class="container-3">
+        <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+        <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+        <script src="https://www.amcharts.com/lib/3/gantt.js"></script>
+        <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+        <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+        <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+        <div id="chartdiv"></div>   
+
+        <script type="text/javascript" src="sfc.js"></script>
+
+           
+    </section>
+
+    <div>
+        <table id="statTable">
+            <tr>
+                <th>PID</th>
+                <th>Complete Time</th>
+                <th>Turnaround Time</th>
+                <th>Waiting Time</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="statTable-s">
+            <div class="block">
+                <label>Average waiting time: </label>
+                <label id="wtOutput"></label>
+            </div>
+
+            <div class="block">
+                <label>Average turnaround time: </label>
+                <label id="taOutput"></label>
+             </div>
+        
+        </div>
+
+
+</body>
+</html>
