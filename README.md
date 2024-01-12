@@ -248,7 +248,18 @@ Estes materiais foram essenciais para a condução dos experimentos e desenvolvi
 
 ![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/9fb9077c-85d4-4209-9989-4a06823b9180)
 
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/815d28d3-f411-4b50-820c-f352863c45ea)
 
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/8ebea93b-f76d-4e8b-b356-8943c35db29f)
+
+
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/37697293-1217-4658-a417-2f13cede3a28)
+
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/3b9284f5-4284-4217-bbdb-1e3b91f5ef31)
+
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/8746bc4a-9e96-4442-b32f-82dd3b9bcb24)
+
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/e16a8d4e-60b0-42bd-9812-cc5ee6cc9d90)
 
 **Referências:**
 - Logisim: [https://www.cburch.com/logisim/](https://www.cburch.com/logisim/)
