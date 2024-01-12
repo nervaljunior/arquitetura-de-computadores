@@ -189,9 +189,70 @@ Os trabalhos são inseridos na fila de prontos à medida que são recebidos no a
 de tecnologia usada Escolhi utilizar um notebook no jupyter criado com python para ilustrar o procedimento  de agendamento.
 
 
+# Relatório de Laboratório de Arquitetura de Computadores
+
+## 1. Objetivos
+
+O objetivo deste relatório é apresentar de forma clara e objetiva os procedimentos e programas desenvolvidos durante as aulas práticas da disciplina de laboratório de arquitetura de computadores. A exposição dos resultados obtidos com o experimento e uma conclusão geral a respeito do trabalho realizado também serão abordados.
+
+### 1.1 Objetivos Específicos
+
+- Explorar as funcionalidades e características do microcontrolador HCS12.
+- Demonstrar a utilização do ambiente de desenvolvimento Codewarrior para projetos com o microcontrolador HCS12.
+- Solucionar problemas encontrados durante o desenvolvimento de projetos no ambiente Codewarrior.
+- Apresentar implementações práticas que solucionem problemas específicos no ambiente Codewarrior.
+- Mostrar a criação de fluxogramas para representar a lógica dos programas desenvolvidos.
+- Utilizar a tabela verdade para analisar e implementar expressões booleanas relacionadas aos problemas propostos.
+- Aplicar o mapa de Karnaugh para realizar a minimização das expressões booleanas.
+- Desenvolver programas em linguagem C e assembly para o microcontrolador HCS12 no ambiente Codewarrior.
+- Realizar testes e análises dos programas implementados em relação aos resultados esperados.
+- Apresentar os resultados obtidos, demonstrando o sucesso na solução dos problemas propostos utilizando o microcontrolador HCS12 e o ambiente Codewarrior.
+
+## 2. Metodologia
+
+Para a realização adequada do experimento e compreensão do mesmo, serão seguidos os seguintes passos:
+
+1. **Implementação da Tabela-Verdade:**
+   - Utilização do software Logisim e Excel para implementar a tabela-verdade referente ao problema.
+
+2. **Minimização por Mapa de Karnaugh:**
+   - Geração da expressão booleana correspondente através da minimização por mapa de Karnaugh.
+
+3. **Diagrama de Blocos:**
+   - Utilização da ferramenta online Draw.io para criar o diagrama de blocos como modelo para a construção do programa.
+
+4. **Programação em Codewarrior:**
+   - Utilização do software computacional CodeWarrior como ambiente de programação, na linguagem C, para implementação do algoritmo de controle.
+
+5. **Teste e Observação dos Resultados:**
+   - Carregamento e execução do programa no microcontrolador HCS12 para realizar testes e observar os resultados finais.
+
+6. **Avaliação e Análise:**
+   - A nota será baseada na solução dos problemas propostos, incluindo execução, teste e análise dos programas feitos em assembly e/ou C para HCS12, conforme especificado em cada questão.
+
+## 3. Materiais
+
+### Hardware:
+
+- Microcomputador (processador Core i7, RAM 8GB, HD 1TB, Monitor 16”).
+- Kit de desenvolvimento para HCS12: APS12C128SLK.
+- Kit de desenvolvimento (placa de expansão): SLK0109UG.
+
+### Software:
+
+- Sistema operacional: Windows 10 64 bits.
+- Ambiente de desenvolvimento integrado (IDE): CodeWarrior versão 5.1.
+
+Estes materiais foram essenciais para a condução dos experimentos e desenvolvimento dos programas no contexto da disciplina de arquitetura de computadores. O ambiente Codewarrior foi especialmente utilizado para programação em linguagem C e assembly para o microcontrolador HCS12, proporcionando uma abordagem prática e abrangente.
+
+
+![image](https://github.com/nervaljunior/arquitetura-de-computadores/assets/108685222/9fb9077c-85d4-4209-9989-4a06823b9180)
+
 
 
 **Referências:**
+- Logisim: [https://www.cburch.com/logisim/](https://www.cburch.com/logisim/)
+- Draw.io: [https://app.diagrams.net/](https://app.diagrams.net/)
 - C. Burch (2011). "Logisim Evolution." Obtido em [https://www.cburch.com/logisim/](https://www.cburch.com/logisim/)
 
 
